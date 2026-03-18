@@ -4,4 +4,4 @@
 
 # repositorio Ejemplo 1 HTML CSS GIT
 ### imagen random
-![xd](ragahta.png)
+![xd](Recursos%20graficos/mii.png)
