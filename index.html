@@ -1,11 +1,49 @@
-<link rel="stylesheet" href="Style.css">
-<h1>
-    Hola Mundo!
-</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>pagnia</title>
+</head>
+<body>
 
-<img src="Recursos graficos/ragahta.png" alt="" class="ragata">
+    <div class="contenedor-principal">
+        <model-viewer 
+            id="visor-3d" 
+            class="Nombre3d"
+            src="Recursos graficos/modelragatha/nombre3D.glb" 
+            camera-orbit="0deg 90deg 15m" 
+            field-of-view="30deg"
+            interpolation-decay="200"
+            camera-controls   interaction-prompt="none"
+            disable-zoom
+            disable-pan
+            alt="Modelo 3D de Edgard"
+        ></model-viewer>
+    </div>
+
+    <!--<img src="Recursos graficos/nombre/nombre3d2pl.png" alt="edgard1288" class="nombre" >-->
+
+    <img src="Recursos graficos/ragahta.png" alt="" class="ragata">
+
+
+    <!--<div class="Raga3d">
+        <model-viewer src="Recursos graficos\modelragatha\Untitled.glb"
+            class="Raga"
+            camera-controls
+            auto-rotate
+            disable-zoom
+        ></model-viewer>
+    </div>-->
+   
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.2.0/model-viewer.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
 
 <h6>
  © Todos los drechos reservados a edgard1288
 </h6>
 
+</html>
