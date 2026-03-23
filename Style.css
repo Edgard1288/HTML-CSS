@@ -12,7 +12,7 @@ body {
 .nombre {
   width: 50%;
   height: auto;
-  display: block; /* Asegura que se comporte como bloque */
+  display: block; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -20,7 +20,7 @@ body {
 .ragata {
   width: 40%;
   height: auto;
-  display: block; /* Asegura que se comporte como bloque */
+  display: block; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -28,10 +28,10 @@ body {
 .contenedor-principal {
     width: 50vw;
     height: 50vh;
-    display: flex;          /* Activamos flexbox */
-    justify-content: center; /* Centrado horizontal */
-    align-items: center;     /* Centrado vertical */
-    margin: auto;           /* Refuerzo de centrado */
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+    margin: auto;           
     overflow: hidden;
 }
 
@@ -44,7 +44,7 @@ body {
 .Raga {
   width: 30vw;
   height: 60vh;
-  display: block; /* Asegura que se comporte como bloque */
+  display: block; 
   margin-left: auto;
   margin-right: auto;
 }
